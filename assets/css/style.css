@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;0,800;0,900;1,200&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.intro h1{
+    color: var(--main-color);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+:root{
+    --main-color: #6e1010;
+    --secondary-color: #fff;
+}
+
+/* navbar */
+.navbar{
+    background-color: var(--main-color);
+    padding: 0 auto;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: .6rem;
+}
+.navbar-nav a{
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+.navbar-nav a:hover{
+    background-color: #fff;
+    color: var(--main-color);
+    border-radius: .4rem;
+}
+
+.wel h1{
+    text-align: center;
+    color: var(--main-color);
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px #000;
+}
+
+/* banner */
+.ban{
+    position: relative;
+    text-align: center;
+}
+.ban .centered{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.ban .centered h1{
+    color: var(--main-color);
+    font-size: 6rem;
+    font-weight: bolder;
+    cursor: pointer;
+    text-shadow: 4px 4px var(--secondary-color);
+}
+.ban .centered h2{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 4px 4px var(--main-color);
+}
+.ban .centered p{
+    color: var(--main-color);
+    font-size: 400;
+    font-weight: bolder;
+    margin-top: -1rem;
+    word-spacing: .3rem;
+    text-shadow: 4px 4px var(--secondary-color);
+}
+.ban img{
+    position: center;
+    height: 80vh;
+    width: 84.3rem;
+}
+
+/* about */
+#about{
+    padding-top: 3rem;
+}
+
+.abt h1{
+    color: var(--main-color);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px #000;
+}
+.abt p{
+    margin: 2rem 1rem;
+    line-height: 1.6;
+    word-spacing: .5rem;
+}
+/* services */
+.sv a{
+    text-decoration-line: none;
+}
+.sv h1{
+    color: var(--main-color);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px #000;
+}
+.sv h2{
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.sv ul li{
+    color: var(--main-color);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+}
+
+.row .col-md-3 img{
+    width: 70px;
+}
+.row .col-md-3 h3{
+    font-size: 400;
+    font-weight: bold;
+    color: #000;
+    padding: 2rem 0rem;
+}
+.row .col-md-3 p{
+    line-height: 1.6;
+    word-spacing: .5rem;
+}
+#sv .card img{
+    padding-left: 2rem;
+    width: 50%;
+}
+#sv .card h3:hover{
+    cursor: pointer;
+    color: var(--main-color);
+}
+#sv .card p:hover{
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+/* gallery */
+#gallery{
+    margin: 1rem 0;
+}
+#gallery a{
+    text-decoration-line: none;
+}
+#gallery h1{
+    color: var(--main-color);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 3px #000;
+}
+#gallery .carousel-inner img{
+    height: 140vh;
+    position: center center;
+}
+
+/* news */
+#news .container h1{
+    color: var(--main-color);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 2rem auto;
+    text-shadow: 2px 2px 3px #000;
+}
+.row{
+    margin-bottom: 2rem;
+}
+.col-md-4{
+    border: 2px solid #333;
+    border-radius: 2rem;
+    padding: 1.5rem 2rem;
+    gap: 2rem;
+}
+.col-md-4 h3{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.col-md-4 p{
+    line-height: 1.6;
+    word-spacing: .5rem;
+    text-align: center;
+    font-size: bold;
+}
+.col-md-4 .cen{
+    text-align: center;
+}
+.my:hover{
+    background: var(--main-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    box-shadow: 0 0 30px #000;
+    transform: scale(1.1);
+}
+.we{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+/* fees */
+.fe{
+    margin: 2rem auto; 
+}
+.fe h1{
+    color: var(--main-color);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 1rem auto;
+    text-shadow: 2px 2px 3px #000;
+}
+.fx{
+    margin-right: 0;
+    margin-left: 0;
+}
+.fx .col-md-3:hover{
+    color: var(--main-color);
+    cursor: pointer;
+}
+.fx .col-md-3 h3{
+    color: var(--main-color);
+}
+
+/* testimonies */
+#testimony{
+    margin: 2rem 0;
+}
+#testimony h1{
+    color: var(--main-color);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 1rem auto;
+    text-shadow: 2px 2px 3px #000;
+}
+.testi{
+    background-color: var(--main-color);
+    padding: 2rem 2rem;
+    margin: auto 0;
+}
+.swiper-slide h3{
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
+.swiper-slide p{
+    font-size: bold;
+    font-style: italic;
+    color: var(--secondary-color);
+    line-height: 1.6;
+    word-spacing: .5rem;
+}
+/* contact */
+#contact{
+    margin-bottom: 2rem;
+}
+#contact h1{
+    text-align: center;
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 2rem auto;
+    text-shadow: 2px 2px 3px #000;
+}
+#contact i{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.con{
+    text-align: center;
+}
+
+/* footer */
+.foot p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+
+/* media querries */
+
+@media screen and (max-width: 480px) {
+    /* navbar */
+    .navbar{
+        background-color: var(--main-color);
+        padding: 0 auto;
+    }
+    .navbar-brand{
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        letter-spacing: .3rem;
+    }
+    .navbar-nav a{
+        font-size: 1rem;
+        font-weight: bold;
+        transition: all .5s ease;
+        display: flex;
+    }
+    .navbar-nav a:hover{
+        background-color: #fff;
+        color: var(--main-color);
+        border-radius: .6rem;
+    }
+
+    .wel h1{
+        text-align: center;
+        color: var(--main-color);
+        font-size: 2rem;
+        padding-top: 2rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 3px #000;
+    }
+    
+}
