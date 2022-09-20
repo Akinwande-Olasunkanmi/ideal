@@ -338,7 +338,11 @@ html{
         color: var(--main-color);
         border-radius: .6rem;
     }
-
+    .ban .centered{
+        position: absolute;
+        top: 20%;
+        left: 1%;
+    }
     .wel h1{
         text-align: center;
         color: var(--main-color);
@@ -354,5 +358,17 @@ html{
         position: absolute;
         top: 20%;
         left: 1%;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .ban .centered{
+        position: absolute;
+        top: 20%;
+        left: 0%;
+    }
+    #banner .ban img{
+        height: 30vh;
     }
 }
