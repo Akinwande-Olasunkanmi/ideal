@@ -58,7 +58,7 @@ html{
 }
 .ban .centered{
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 20%;
 }
 .ban .centered h1{
@@ -81,7 +81,7 @@ html{
     font-weight: bolder;
     margin-top: -1rem;
     word-spacing: .3rem;
-    text-shadow: 4px 4px var(--secondary-color);
+    text-shadow: 1px 1px var(--secondary-color);
 }
 .ban img{
     position: center;
@@ -190,7 +190,7 @@ html{
 .row{
     margin-bottom: 2rem;
 }
-.col-md-4{
+#news .row .col-md-4{
     border: 2px solid #333;
     border-radius: 2rem;
     padding: 1.5rem 2rem;
@@ -287,14 +287,22 @@ html{
     margin: 2rem auto;
     text-shadow: 2px 2px 3px #000;
 }
-#contact i{
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bolder;
+
+#contact .col-md-4 i{
+    font-size: 20px;
+    font-weight: bold;
 }
-.con{
-    text-align: center;
+#contact .col-md-4 i:hover{
+    color: var(--main-color);
 }
+#contact .col-md-4 i a{
+    text-decoration-line: none;
+    color: #000;
+}
+#contact .col-md-4 i a:hover{
+    color: var(--main-color);
+}
+
 
 /* footer */
 .foot p{
@@ -339,5 +347,12 @@ html{
         font-weight: bold;
         text-shadow: 2px 2px 3px #000;
     }
-    
+}
+
+@media screen and (max-width: 320px) {
+    .ban .centered{
+        position: absolute;
+        top: 20%;
+        left: 1%;
+    }
 }
